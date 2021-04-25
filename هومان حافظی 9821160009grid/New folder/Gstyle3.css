@@ -1,0 +1,49 @@
+
+body{
+    background-image: url("image/utm.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.alert	{
+	color:#ABB2B9;
+	font-size: 60px;
+    text-align: center;
+
+}
+.navigator {
+	text-align: center;
+    width: 90%;
+    max-width: 400px;
+    padding: 0.5rem;
+    background-color: #c1b5a9;
+    border-radius: 10px;
+    
+    margin: 50px auto;
+
+}
+.navigator ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navigator ul li {
+  list-style: none;
+
+}
+.navigator ul .active {
+  color: #ff6f91;
+  font-weight: 900;
+  font-size: 2rem;
+}
+.navigator ul li:hover {
+  transform: translateY(-5px);
+}
+.alter	{
+	color:white;
+	font-size: 60px;
+    text-align: center;
+
+}
